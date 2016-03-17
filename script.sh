@@ -7,3 +7,14 @@ mkdir testabc
 touch prasanna
 touch uday
 service httpd start
+
+
+Hi Code for creating user in puppet by prasanna
+
+class useradd {
+user {"prasanna":
+    ensure => present
+}
+
+}
+~ 
